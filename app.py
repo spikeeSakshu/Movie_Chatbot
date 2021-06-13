@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 def get_data():
-    speech= 'Demo Response'
+    speech= 'Rating'
 
     return {'fulfillmentText': speech}
 def processRequest(req):
